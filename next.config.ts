@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   compress: true,
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/AstroAnkush' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/AstroAnkush' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/AstroAnkush/' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/AstroAnkush/' : '',
   eslint: {
     ignoreDuringBuilds: true,
   },
